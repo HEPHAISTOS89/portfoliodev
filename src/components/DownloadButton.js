@@ -29,11 +29,11 @@ function DownloadButton() {
   };
 
   return (
-    <a href="CV1.pdf" download="CV Ryan Sepkap Developpeur Web.pdf">
+    // <a href="CV1.pdf" download="CV Ryan Sepkap Developpeur Web.pdf">
     <button className="vvd" onClick={handleDownload} disabled={downloading}><span>
     {downloading ? "Downloading..." : "Download Resume"}
   </span></button>
-</a>
+// </a>
 
   );
 }
